@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title" id="title">Simple Survey Form</h1>
+    <p class="caption" id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label class="inline" id="name-label" for="name">Name: <input class="inline" id="name" type="text" required placeholder="Enter name"></label>
+        <label class="inline" id="email-label" for="email">Email: <input class="inline" id="email" type="email" required placeholder="Enter email"></label>
+        <label class="inline" id="number-label" for="number">Age: <input class="inline" id="number" type="number" min="13" max="120" placeholder="Enter Age"></label>
+        <label class="inline" id="dropdown-label" for="dropdown">What is your favorite soccer team? 
+            <select class="inline" id="dropdown">
+              <option value="">(select one)</option>
+              <option value="sounders">Seattle Sounders</option>
+              <option value="timbers">Portland Timbers</option>
+              <option value="whitecaps">Vancouver Whitecaps</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>Would you reccomend watching MLS to a friend?</p>
+          <label id="yes-radio-label" for="yes-radio"><input value="yes" id="yes-radio" type="radio" name="reccomend-radios"> Yes</label>
+          <label id="no-radio-label" for="no-radio"><input value="no" id="no-radio" type="radio" name="reccomend-radios"> No</label>
+          <label id="maybe-radio-label" for="maybe-radio"><input value="maybe" id="maybe-radio" type="radio" name="reccomend-radios"> Maybe</label>
+
+          <p>If you have heard of your local MLS team, how did you hear about it?</p>
+          <label id="dropdown-label" for="dropdown"><select id="dropdown">
+            <option value="">(select an option)</option>
+            <option value="tv">television</option>
+            <option value="radio">radio</option>
+            <option value="friends">friends/family</option>
+          </select></label>
+        </fieldset>
+        <fieldset>
+          <p>What sports do you currently watch?</p>
+          <label class="inline" id="soccer-check-label" for="soccer-checkbox"><input id="soccer-checkbox" type="checkbox" value="soccer"> Soccer</input></label>
+         <label class="inline" id="basketball-check-label" for="basketball-checkbox"><input id="basketball-checkbox" type="checkbox" value="basketball"> Basketball</input></label>
+         <label class="inline" id="baseball-check-label" for="baseball-checkbox"><input id="baseball-checkbox" type="checkbox" value="baseball"> Baseball</input></label>
+         <label class="inline" id="hockey-check-label" for="hockey-checkbox"><input id="hockey-checkbox" type="checkbox" value="hockey"> Hockey</input></label>
+         <label class="inline" id="football-check-label" for="football-checkbox"><input id="football-checkbox" type="checkbox" value="football"> Football</input></label> 
+        </fieldset>
+        <fieldset>
+         <label id="text-area-label" for="text-area">Additional Comments: <textarea class="inline" id="text-area" placeholder="Enter comments here..."></textarea></label>
+         <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+    </form>
+  </body>
+</html>

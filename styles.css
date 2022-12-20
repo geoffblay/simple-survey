@@ -1,0 +1,99 @@
+body {
+    background-image: url("https://i.postimg.cc/Fz0Qq8c2/image.png");
+    font-family: Tahoma;
+  }
+  
+  fieldset {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(26, 51, 82);
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    color: white;
+  }
+  
+  fieldset:first-of-type {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    border-top-width: 3px;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+    border-bottom-width: 3px;
+  }
+  
+  .title {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .caption {
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+  
+  .inline {
+    display: block;
+    padding: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+  }
+  
+  select {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    display: "block";
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgb(20, 23, 61);
+    color: white;
+    margin-top: 10px;
+  }
